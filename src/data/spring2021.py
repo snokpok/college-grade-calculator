@@ -6,8 +6,8 @@ gesm120 = CourseClass(
     grades_weights_dict={
         "paper1": [97/100, 20],
         "paper2": [88/100, 20],
-        "paper3": [90/100, 20],
-        "discussions": [1, 20],
+        "paper3": [85/100, 20],
+        "discussions": [0.5, 20],
         "attendance": [1, 15],
     },
     passing_grade=60,
@@ -102,7 +102,6 @@ math407 = CourseClass(
         "D": 56,
         "D-": 50
     },
-    desired_letter_grade="A-",
     assignment_to_desired_lg="final"
 )
 
